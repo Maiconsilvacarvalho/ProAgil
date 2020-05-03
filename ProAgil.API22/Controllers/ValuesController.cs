@@ -17,8 +17,8 @@ namespace ProAgil.API22.Controllers
     {
         public DataContext _context { get; }
 
-        public ValuesController(DataContext context)
-        {
+        public ValuesController(DataContext context){
+            
             _context = context;
         }
 
